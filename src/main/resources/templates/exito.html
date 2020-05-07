@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="ISO-8859-1">
+  <title>Exito</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card mt-2 p-2">
+          <h1 class="text-center">Exito</h1>
+		      <div class="alert alert-success" role="alert">
+		        Pudiste ingresar tu producto para venderlo
+		      </div>
+		      <a class="btn btn-primary" th:href="@{/producto}">Ingresar nuevo producto</a>
+		    </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
